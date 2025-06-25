@@ -1,6 +1,3 @@
-# server/seed.py
-
-#!/usr/bin/env python3
 
 from server.app import app
 from server.models import db, Customer, Item, Review
