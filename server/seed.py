@@ -2,8 +2,8 @@
 
 #!/usr/bin/env python3
 
-from app import app
-from models import db, Customer, Item, Review
+from server.app import app
+from server.models import db, Customer, Item, Review
 
 with app.app_context():
     print("Clearing old data...")
